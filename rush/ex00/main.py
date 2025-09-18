@@ -3,12 +3,39 @@ from check import check
 
 def main():
     """have board and call check"""
-    board = """/
+    board = """\
+P...
 ....
 ....
-....
-..k./
+..K.\
 """
-    check(board)
+    board2 = """\
+B....
+.P...
+..B..
+....P
+R...K\
+"""
+    board3 = """\
+BK.PR
+..P..
+..Q..
+.....
+R....\
+"""
+    board4 = """\
+B...B
+.P...
+..Q..
+...P.
+R.P.K\
+"""
+    boardt = """\
+.B..
+..K.
+....
+....\
+"""
+    check(boardt)
 
 main()
