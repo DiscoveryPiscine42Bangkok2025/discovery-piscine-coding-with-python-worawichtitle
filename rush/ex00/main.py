@@ -1,5 +1,5 @@
 """rush/ex00/main.py"""
-from check import check
+from checkmate import check
 
 def main():
     """have board and call check"""
@@ -31,11 +31,10 @@ B...B
 R.P.K\
 """
     boardt = """\
-.B..
-..K.
-....
-....\
+.B.
+..K
+...\
 """
-    check(boardt)
+    check(board)
 
 main()
